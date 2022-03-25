@@ -76,7 +76,7 @@ const muestraGrafica = function( idGrafica, leyenda, fechas, datos, color )
 };
 
 // const ImportaDatos = function(MonedasMensual){   // Quitar comentario si se usa el arreglo manual
-const ImportaDatos = function()                     // Comentar si se usa el arreglo manual
+const ImportaDatos = async function()                     // Comentar si se usa el arreglo manual
 {                    
     console.log("2. Entré a Importar Datos");
     let idGrafica = "";
@@ -87,11 +87,12 @@ const ImportaDatos = function()                     // Comentar si se usa el arr
     let color = "";
 
     console.log("3. Se llama a Armar Información Mensual");     // Comentar si se usa el arreglo manual
-    let MonedasMensual = armaInformacionMensual();              // Comentar si se usa el arreglo manual
+    let MonedasMensual = await armaInformacionMensual();              // Comentar si se usa el arreglo manual
     console.log("11. Regresé de Armar Información Mensual");    // Comentar  si se usa el arreglo manual
-
-    for (const moneda in monedas) {
-        idGrafica = monedas[moneda] + "-MM";
+    console.log("MonedasMensual", MonedasMensual)
+    for (const moneda of monedas) {
+        console.log("monedas", monedas)
+        idGrafica = moneda + "-MM";
         idBusqueda = monedas[moneda];
         leyenda = leyendas[moneda];
         color = relleno[moneda];
