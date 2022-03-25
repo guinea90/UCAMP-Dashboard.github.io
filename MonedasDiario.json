@@ -1,0 +1,74 @@
+{ 
+  "listas":  
+  [	
+	{
+  	"success": true,
+  	"timestamp": 1644883199,
+  	"historical": true,
+  	"base": "EUR",
+  	"date": "2022-02-14",
+  	"rates": 
+     		{ "CAD": 1.43915, "EUR": 1, "MXN": 23.078529, "USD": 1.130563 }
+	},
+	{
+  	"success": true,
+  	"timestamp": 1644796799,
+	  "historical": true,
+	  "base": "EUR",
+	  "date": "2022-02-13",
+	  "rates": 
+     		{ "CAD": 1.446044, "EUR": 1, "MXN": 23.314972, "USD": 1.136693 }
+	},
+	{
+	"success": true,
+	  "timestamp": 1644710399,
+	  "historical": true,
+	  "base": "EUR",
+	  "date": "2022-02-12",
+	  "rates": 
+     		{ "CAD": 1.445448, "EUR": 1, "MXN": 23.317166, "USD": 1.13494 }
+	},
+	{
+	  "success": true,
+	  "timestamp": 1644623999,
+	  "historical": true,
+	  "base": "EUR",
+	  "date": "2022-02-11",
+	  "rates": 
+     		{ "CAD": 1.445448, "EUR": 1, "MXN": 23.314162, "USD": 1.13494 }
+	},
+	{
+  	"success": true,
+  	"timestamp": 1644537599,
+  	"historical": true,
+  	"base": "EUR",
+  	"date": "2022-02-10",
+  	"rates": 
+     		{ "CAD": 1.453328, "EUR": 1, "MXN": 23.46665, "USD": 1.141418 }
+	},
+	{
+  	"success": true,
+  	"timestamp": 1644451199,
+  	"historical": true,
+ 	"base": "EUR",
+  	"date": "2022-02-09",
+  	"rates": 
+     		{ "CAD": 1.447907, "EUR": 1, "MXN": 23.407691, "USD": 1.142198 }
+	},
+	{
+  	"success": true,
+  	"timestamp": 1644364799,
+  	"historical": true,
+  	"base": "EUR",
+  	"date": "2022-02-08",
+  	"rates": 
+     		{ "CAD": 1.451022, "EUR": 1, "MXN": 23.530655, "USD": 1.142015 }
+	}
+  ]
+}
+
+
+
+
+
+

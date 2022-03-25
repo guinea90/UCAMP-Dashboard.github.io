@@ -1,0 +1,159 @@
+* {
+	box-sizing: content-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: sans-serif;
+	margin: 0;
+	padding-top: 60px;
+}
+
+/* INICIO CONFIRGURACIÓN HEADER Y NAVBAR */
+.header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: black;
+	height: 60px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+}
+
+.header-left {
+	display: flex;
+	align-items: center;
+}
+
+.header-rigth {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logoUcamp {
+	display: flex;
+	align-items: center;
+	width: 40px;
+}
+
+.navEnlace {
+	color: whitesmoke;
+	text-decoration: none;
+	list-style: none;
+}
+
+.navEnlace:hover {
+	color: lightskyblue;
+	transition: 0.5s;
+}
+/*FIN CONFIRGURACIÓN HEADER Y NAVBAR*/
+
+.gridBody {
+	/* border: 2px solid red; */
+	display: grid;
+	flex-wrap: wrap;
+	grid-template-columns: repeat(4, 2fr);
+	grid-gap: 10px;
+	grid-auto-rows: minmax(180px, auto);
+	padding-bottom: 30px;
+	height: 720px;
+}
+
+.sideBar {
+	display: flex;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	grid-column-start: 1;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	padding: 20px;
+	border: 2px solid red;
+}
+
+.informacion {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+.graficoMM1,
+.graficoYY1 {
+	grid-column-start: 2;
+	margin-right: 10px;
+	margin-left: 20px;
+	margin-top: 20px;
+	width: auto;
+}
+
+.graficoYY1 {
+	grid-row-start: 2;
+}
+
+.graficoMM2,
+.graficoYY2 {
+	grid-column-start: 3;
+	margin-right: 10px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.graficoYY2 {
+	grid-row-start: 2;
+}
+
+.graficoMM3,
+.graficoYY3 {
+	grid-column-start: 4;
+	margin-right: 10px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.graficoYY3 {
+	grid-row-start: 2;
+}
+
+.graficoMM1,
+.graficoMM2,
+.graficoMM3,
+.graficoYY1,
+.graficoYY2,
+.graficoYY3 {
+	border: 2px solid red;
+	width: 90%;
+	height: 90%;
+}
+
+/*INICIO CONFIGURACIÓN FOOTER*/
+
+.section-footer {
+	padding-top: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding-bottom: 5px;
+	padding-left: 30px;
+	background-color: rgba(119, 136, 153, 0.109);
+}
+
+.p-footer {
+	text-align: center;
+	color: rgba(146, 142, 142, 0.616);
+	padding-top: 15px;
+	padding-bottom: 30px;
+	font-size: 15px;
+}
+
+.linea {
+	height: 0.15px;
+	width: 70%;
+	margin: auto;
+	background-color: rgba(206, 203, 203, 0.25);
+	border-color: rgba(206, 203, 203, 0.25);
+	border-radius: 0.2px;
+}
+/*INICIO CONFIGURACIÓN FOOTER*/

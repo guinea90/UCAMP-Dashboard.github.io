@@ -1,0 +1,7 @@
+
+https://www.chartjs.org/docs/latest/samples/information.html
+
+https://github.com/public-apis/public-apis
+
+https://code.tutsplus.com/es/tutorials/getting-started-with-chartjs-introduction--cms-28278
+

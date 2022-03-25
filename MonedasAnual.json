@@ -1,0 +1,51 @@
+{ 
+  "listas":  
+  [	
+	{
+		"success": true,
+		"timestamp": 1514764799,
+		"historical": true,
+		"base": "EUR",
+		"date": "2017-12-31",
+		"rates": { "CAD-YY": 1.509119, "EUR-YY": 1, "USD-YY": 1.199908, "MXN-YY": 23.574582 }
+	},
+	{
+		"success": true,
+		"timestamp": 1546300799,
+		"historical": true,
+		"base": "EUR",
+		"date": "2018-12-31",
+		"rates": { "CAD-YY": 1.558834, "EUR-YY": 1, "USD-YY": 1.149155, "MXN-YY": 22.579394 }
+	},
+	{
+		"success": true,
+		"timestamp": 1577836799,
+		"historical": true,
+		"base": "EUR",
+		"date": "2019-12-31",
+		"rates": { "CAD-YY": 1.459094, "EUR-YY": 1, "USD-YY": 1.121991, "MXN-YY": 21.241987	}
+	},
+	{
+		"success": true,
+		"timestamp": 1609459199,
+		"historical": true,
+		"base": "EUR",
+		"date": "2020-12-31",
+		"rates": { "CAD-YY": 1.550361, "EUR-YY": 1, "USD-YY": 1.217875, "MXN-YY": 24.217142 }
+	},
+	{
+		"success": true,
+		"timestamp": 1640995199,
+		"historical": true,
+		"base": "EUR",
+		"date": "2021-12-31",
+		"rates": { "CAD-YY": 1.437255, "EUR-YY": 1, "USD-YY": 1.137145, "MXN-YY": 23.308415 }
+	}
+  ]
+}
+
+
+
+
+
+

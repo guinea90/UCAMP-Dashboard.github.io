@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Gráficas de Variación de Modenas</title>
+</head>
+
+<header class="header">
+    <div class="header-left">
+        <div><img class="logoUcamp" src="ucamp.png" alt=""></div>
+    </div>
+    <div class="header-rigth">
+        <a href="#" class="navEnlace">Inicio</a>
+    </div>
+</header>
+
+<body>
+    <section class="gridBody">
+        <section class="sideBar">
+            <div class="informacion">
+                <div><h2>Información de interés</h2></div>
+                <div class="btAgrega">
+                    <button id="botonAgrega" class="boton-Agregar" type="submit" onclick="agregarRenglones()">Mostrar Información</button>
+                </div>
+                <div class="btLimpiarCampos">
+                    <button id="botonLimpiaCampos" class="boton-Limpiar" type="submit" onclick="limpiarCampos()">Borrar Información</button>
+                </div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, debitis quam cum quidem accusamus dicta est cumque error delectus architecto dolorem totam iure ut provident sit. Itaque nihil enim voluptates.</p>
+                    <br>
+                    <br>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, beatae nihil nisi delectus aspernatur labore laborum quis inventore modi commodi tempora exercitationem nam obcaecati excepturi dolorem illum! Amet, unde nulla.</p>
+                    <br>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum incidunt debitis aliquid qui eveniet praesentium ad dolorum, nesciunt veritatis aut pariatur dolorem tempora. Voluptates facilis facere aspernatur, ratione eum possimus!</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="graficoMM1">
+            <canvas id="CAD-MM"></canvas>
+        </div>
+
+        <div class="graficoMM2">
+            <canvas id="USD-MM"></canvas>
+        </div>
+        
+        <div class="graficoMM3">
+            <canvas id="MXN-MM"></canvas>
+        </div>
+    
+        <div class="graficoYY1">
+            <canvas id="CAD-YY"></canvas>
+        </div>
+
+        <div class="graficoYY2">
+            <canvas id="USD-YY"></canvas>
+        </div>
+        
+        <div class="graficoYY3">
+            <canvas id="MXN-YY"></canvas>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="index.js"></script>
+    </section>
+</body>
+
+<footer class="section-footer">
+    <div>
+        <section><hr class="linea"></hr></section>
+        <p class="p-footer">© 2022 U Camp. Todos los derechos reservados. Página interactiva para fines académicos.</p>
+    </div>
+</footer>
+</html>
