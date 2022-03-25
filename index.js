@@ -4,52 +4,22 @@ import {armaInformacionAnual} from './datos.js'
 // let datosMensual = 
 // [	
 //     {
-//         "success": true,
-//         "timestamp": 1633046399,
-//         "historical": true,
-//         "base": "EUR",
-//         "date": "2021-09-30",
-//         "rates": { "CAD": 1.468354, "EUR": 1, "USD": 1.157414, "MXN": 23.877914 }
+//         "date": "2021-09-30", "CAD": 1.468354, "EUR": 1, "USD": 1.157414, "MXN": 23.877914
 //     },
 //     {
-//         "success": true,
-//         "timestamp": 1635724799,
-//         "historical": true,
-//         "base": "EUR",
-//         "date": "2021-10-31",
-//         "rates": { "CAD": 1.431255, "EUR": 1, "USD": 1.155809, "MXN": 23.758456 }
+//         "date": "2021-10-31", "CAD": 1.431255, "EUR": 1, "USD": 1.155809, "MXN": 23.758456
 //     },
 //     {
-//         "success": true,
-//         "timestamp": 1638316799,
-//         "historical": true,
-//         "base": "EUR",
-//         "date": "2021-11-30",
-//         "rates": { "CAD": 1.447805, "EUR": 1, "USD": 1.133138, "MXN": 24.288132 }	  
+//         "date": "2021-11-30", "CAD": 1.447805, "EUR": 1, "USD": 1.133138, "MXN": 24.288132 
 //     },
 //     {
-//         "success": true,
-//         "timestamp": 1640995199,
-//         "historical": true,
-//         "base": "EUR",
-//         "date": "2021-12-31",
-//         "rates": { "CAD": 1.437255, "EUR": 1, "USD": 1.137145, "MXN": 23.308415	}
+//         "date": "2021-12-31", "CAD": 1.437255, "EUR": 1, "USD": 1.137145, "MXN": 23.308415
 //     },
 //     {
-//         "success": true,
-//         "timestamp": 1643673599,
-//         "historical": true,
-//         "base": "EUR",
-//         "date": "2022-01-31",
-//         "rates": { "CAD": 1.427889, "EUR": 1, "USD": 1.122952, "MXN": 23.176833	}
+//         "date": "2022-01-31", "CAD": 1.427889, "EUR": 1, "USD": 1.122952, "MXN": 23.176833
 //     },
 //     {
-//         "success": true,
-//         "timestamp": 1646092799,
-//         "historical": true,
-//         "base": "EUR",
-//         "date": "2022-02-28",
-//         "rates": { "CAD": 1.420689, "EUR": 1, "USD": 1.121554, "MXN": 22.963428	}
+//         "date": "2022-02-28", "CAD": 1.420689, "EUR": 1, "USD": 1.121554, "MXN": 22.963428
 //     }
 // ];
 
