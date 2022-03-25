@@ -44,22 +44,22 @@ export function armaInformacionMensual(){
         armaUrl = `${primeraParte}${segundaParte}${terceraParte}`;
 
         console.log("6. Entré al Fetch");
-        // fetch(armaUrl)
-        // .then(function(respuesta){
-        // return respuesta.json();
-        // })
-        // .then((listas) => {
-        //     console.log(listas);
-        //     const {date, rates: {CAD, USD, MXN}} = listas
-        //     console.log("7. Valores de los datos destructurados");
-        //     console.log(date, CAD, USD, MXN);
-        //     let armaObjeto = {date: date, CAD: CAD, USD: USD, MXN: MXN}
-        //     console.log("7. Valor de armaObjeto");
-        //     console.log(armaObjeto);
-        //     datosMensuales.push(armaObjeto);
-        //     console.log("8. Valores del push en datosMensuales");
-        //     console.log(datosMensuales);
-        // });
+        fetch(armaUrl)
+        .then(function(respuesta){
+        return respuesta.json();
+        })
+        .then((listas) => {
+            console.log(listas);
+            const {date, rates: {CAD, USD, MXN}} = listas
+            console.log("7. Valores de los datos destructurados");
+            console.log(date, CAD, USD, MXN);
+            let armaObjeto = {date: date, CAD: CAD, USD: USD, MXN: MXN}
+            console.log("7. Valor de armaObjeto");
+            console.log(armaObjeto);
+            datosMensuales.push(armaObjeto);
+            console.log("8. Valores del push en datosMensuales");
+            console.log(datosMensuales);
+        });
     }
 
     console.log("9. Arreglo y tipo de información mensual final");
