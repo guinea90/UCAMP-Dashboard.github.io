@@ -59,18 +59,25 @@ body {
 	grid-auto-rows: minmax(180px, auto);
 	padding-bottom: 30px;
 	height: 720px;
+	/*https://developer.mozilla.org/es/docs/Web/CSS/filter*/
+	background-image: url(grafico-de-bolsa.jpg);
+	background-size: contain;
 }
 
 .sideBar {
 	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 	margin-top: 20px;
-	margin-right: 20px;
 	margin-left: 20px;
 	grid-column-start: 1;
 	grid-row-start: 1;
 	grid-row-end: 3;
 	padding: 20px;
 	border: 2px solid red;
+	width: 15vw;
+	text-align: justify;
 }
 
 .informacion {
@@ -124,8 +131,44 @@ body {
 .graficoYY2,
 .graficoYY3 {
 	border: 2px solid red;
-	width: 90%;
+	background-color: rgba(128, 128, 128, 0.363);
+	width: 92%;
 	height: 90%;
+}
+
+.chart {
+	padding: 5px;
+	margin: 5px;
+}
+
+.btn {
+	width: 120px;
+	height: 65px;
+	margin: 5px;
+	padding: 1px;
+	text-align: center;
+	/* margin-top: 20px; */
+}
+
+.card {
+	padding: 5px;
+}
+
+.btn:hover {
+	background-color: grey;
+}
+
+h5 {
+	font-size: small;
+	margin-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-weight: bold;
+	text-decoration-line: none;
+}
+
+span {
+	float: right;
 }
 
 /*INICIO CONFIGURACIÓN FOOTER*/
@@ -138,13 +181,14 @@ body {
 	padding-bottom: 5px;
 	padding-left: 30px;
 	background-color: rgba(119, 136, 153, 0.109);
+	background-image: none;
 }
 
 .p-footer {
 	text-align: center;
 	color: rgba(146, 142, 142, 0.616);
 	padding-top: 15px;
-	padding-bottom: 30px;
+	padding-bottom: 20px;
 	font-size: 15px;
 }
 
