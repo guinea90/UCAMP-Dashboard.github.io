@@ -20,7 +20,7 @@
 </header>
 
 <body>
-    <section class="gridBody">
+    <div class="mainBody">
         <section class="sideBar">
             <div>
                 <p><a class="btn btn-primary" data-toggle="collapse" href="#dolarCAD" aria-expanded="false" aria-controls="Collapse">Dólar canadiense</a></p>
@@ -47,38 +47,40 @@
                 </div>  
             </div>
         </section>
+        <section class="gridBody">
+            <div class="graficoMM1">
+                <h5>Últimos 5 años <span>Base Euro </span></h5>
+                <canvas id="CAD-MM" class="chart"></canvas>
+            </div>
 
-        <div class="graficoMM1">
-            <h5>Últimos 5 años <span>Base Euro </span></h5>
-            <canvas id="CAD-MM" class="chart"></canvas>
-        </div>
-
-        <div class="graficoMM2">
-            <h5>Últimos 5 años <span>Base Euro </span></h5>
-            <canvas id="USD-MM" class="chart"></canvas>
-        </div>
+            <div class="graficoMM2">
+                <h5>Últimos 5 años <span>Base Euro </span></h5>
+                <canvas id="USD-MM" class="chart"></canvas>
+            </div>
+            
+            <div class="graficoMM3">
+                <h5>Últimos 5 años <span>Base Euro </span></h5>
+                <canvas id="MXN-MM" class="chart"></canvas>
+            </div>
         
-        <div class="graficoMM3">
-            <h5>Últimos 5 años <span>Base Euro </span></h5>
-            <canvas id="MXN-MM" class="chart"></canvas>
-        </div>
-    
-        <div class="graficoYY1">
-            <h5>Últimos 5 años <span>Base Euro </span></h5>
-            <canvas id="CAD-YY" class="chart"></canvas>
-        </div>
+            <div class="graficoYY1">
+                <h5>Últimos 5 años <span>Base Euro </span></h5>
+                <canvas id="CAD-YY" class="chart"></canvas>
+            </div>
 
-        <div class="graficoYY2">
-            <h5>Últimos 5 años <span>Base Euro </span></h5>
-            <canvas id="USD-YY" class="chart"></canvas>
-        </div>
-        
-        <div class="graficoYY3">
-            <h5>Últimos 5 años <span>Base Euro </span></h5>
-            <canvas id="MXN-YY" class="chart"></canvas>
-        </div>
+            <div class="graficoYY2">
+                <h5>Últimos 5 años <span>Base Euro </span></h5>
+                <canvas id="USD-YY" class="chart"></canvas>
+            </div>
+            
+            <div class="graficoYY3">
+                <h5>Últimos 5 años <span>Base Euro </span></h5>
+                <canvas id="MXN-YY" class="chart"></canvas>
+            </div>
+        </section>
+    </div>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
 
     <script type="module" src="index.js"></script>
 
